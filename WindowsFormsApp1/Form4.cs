@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Form4 : Form
     {
-        public Form1()
+        public Form4()
         {
             InitializeComponent();
         }
@@ -20,15 +20,8 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form4 f4 = new Form4();
-            f4.ShowDialog();
+            Form1 f1 = new Form1();
+            f1.ShowDialog();
         }
     }
 }
